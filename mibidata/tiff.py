@@ -10,7 +10,7 @@ import os
 import warnings
 
 import numpy as np
-from skimage.external.tifffile import TiffFile, TiffWriter
+from tifffile import TiffFile, TiffWriter
 
 from mibidata import mibi_image as mi, util
 
